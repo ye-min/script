@@ -10,5 +10,3 @@ apk add --no-cache openssh
 ssh-keygen -A
 sed -i '$a PermitRootLogin yes' /etc/ssh/sshd_config
 sed -i '$a PasswordAuthentication yes' /etc/ssh/sshd_config
-
-passwd
